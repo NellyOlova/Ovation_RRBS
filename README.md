@@ -22,7 +22,7 @@ Strip bismark files [custom step and script provided by Tecan]\
 Deduplicate NuDup [custom step and script provided by Tecan]\
 Sort deduplicated files (paired-end data only)\
 Methylation extraction\
-MultiQC\
+MultiQC
 
 
 
