@@ -23,6 +23,7 @@ module load igmm/apps/TrimGalore/0.6.6
 module load igmm/apps/cutadapt/1.16
 module load igmm/apps/FastQC/0.11.9
 
+# Remove -a2 AAATCAAAAAAAC and $INPUT_FILE2 when processing single end data
 trim_galore --paired --fastqc -a AGATCGGAAGAGC -a2 AAATCAAAAAAAC $INPUT_FILE1 $INPUT_FILE2
 
 
