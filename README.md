@@ -1,8 +1,8 @@
 # Ovation_RRBS
 This repository contains scripts for processing of raw (fastq) files produced with the Tecan Ovation RRBS Methyl-seq library preparation protocol (methylation only).
-It also contains the Tecan/Nugen scripts, which are sourced from their original repositories and all further information on utilising these is available there:\
-https://github.com/tecangenomics/nudup \
-https://github.com/tecangenomics/NuMetRRBS
+It also contains the Tecan(Nugen) scripts, which are sourced from their original repositories and all further information on utilising these is available there:\
+https://github.com/tecangenomics/NuMetRRBS \
+https://github.com/tecangenomics/nudup
 
 The data processing workflow includes the following steps:
 
