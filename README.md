@@ -26,8 +26,8 @@ Methylation extraction\
 MultiQC
 
 ## System requirements
-The scripts are written for the University of Edinburgh high performance compute cluster, which is equipped with a job scheduler and suitable to run array jobs (multiple files processed in parallel).\
-This is the list of used tools - the specific requirements for each tool must be checked separately.
+The scripts are written for the University of Edinburgh high performance compute cluster, which is equipped with a job scheduler and suitable to run job arrays  (multiple files processed in parallel).\
+This is the list of used software tools - the specific requirements for each tool must be checked separately.
 1. FastQC for data quality check: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/ \
 2. FastQ Screen for data purity (contamination) check: https://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/ \
 3. TrimGalore! and CutAdapt for read trimming and Illumina adapter removal: http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/; https://github.com/marcelm/cutadapt \
