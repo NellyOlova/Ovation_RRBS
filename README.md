@@ -38,5 +38,6 @@ This is the list of used software tools - the specific requirements for each too
 7. MultiQC – for final data processing summary report: https://multiqc.info/ 
 8. The above tools need Perl and Python installed. Do note that all Nugen python scripts are written and run with python2.7!
 
-
+## Contacts
+Nelly Olova nelly.olova@ed.ac.uk
 
