@@ -1,6 +1,6 @@
 # Ovation_RRBS
-Bash scripts for mostly parallelised processing of raw (fastq) files produced with the Tecan/NuGEN Ovation RRBS Methyl-seq library preparation protocol. \
-This workflow deals with methylation data only, for library preparation see [Ovation RRBS Methyl-seq library preparation protocol](https://slack.protocols.io:8443/view/ovation-rrbs-methyl-seq-library-prep-cve4w3gw.html). \
+Bash scripts for parallel processing of raw (fastq) files produced with the Tecan/NuGEN Ovation RRBS Methyl-seq library preparation protocol. \
+This workflow deals with methylation data only (no hydroxymethyl-cytosine) - for detailed library preparation instructions see [Ovation RRBS Methyl-seq library preparation protocol](https://slack.protocols.io:8443/view/ovation-rrbs-methyl-seq-library-prep-cve4w3gw.html). \
 The Tecan(NuGEN) scripts are also included, sourced from their original repositories and all further information on utilising these is available there:\
 https://github.com/tecangenomics/NuMetRRBS \
 https://github.com/tecangenomics/nudup
@@ -35,7 +35,7 @@ This is the list of used software tools - the specific requirements for each too
 4. Bismark for bisulfite converted read mapping and methylation extraction: http://www.bioinformatics.babraham.ac.uk/projects/bismark/ 
 5. bowtie2 is necessary for several of the steps: http://bowtie-bio.sourceforge.net/bowtie2/index.shtml 
 6. samtools is necessary for several of the steps: http://samtools.sourceforge.net/ 
-7. MultiQC – for final data processing summary report: https://multiqc.info/ 
+7. MultiQC – for compiling final summary reports from each step: https://multiqc.info/ 
 8. The above tools need Perl and Python installed. Do note that all Nugen python scripts are written and run with python2.7!
 
 ## Contacts
