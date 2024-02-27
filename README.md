@@ -38,6 +38,16 @@ This is the list of used software tools - the specific requirements for each too
 7. MultiQC – for compiling final summary reports from each step: https://multiqc.info/ 
 8. The above tools need Perl and Python installed. Do note that all Nugen python scripts are written and run with python2.7!
 
+## Tecan/Nugen scripts
+All listed above tools have comprehensive tutorials and active online support. \
+Support for Nugen scripts has been suspended, however, the previously reported and resolved errors in the associated Github repositories can be useful during troubleshooting. I am flagging most common issues. \
+
+Nudup.py - common issues: 
+1) Requires large temporary storage space whilst running, so make sure to provide a physical path to a server if running on a network. If storage isn't enough, it cannot complete but hangs and fills up all available space, preventing other users from working, and the temporary files must be removed manually. Displays random errors when temporary memory is not enough or not accurately allocated in the command line.
+2) Failing to install samtools results in an empty error message, which makes it difficult to debug.
+
+   ![image](https://github.com/NellyOlova/Ovation_RRBS/assets/20169496/5e116cf0-97e7-4131-9b6a-6e987d549cd8) 
+
 ## Contacts
 Nelly Olova nelly.olova@ed.ac.uk
 
