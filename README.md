@@ -40,7 +40,7 @@ This is the list of used software tools - the specific requirements for each too
 
 ## Tecan/Nugen scripts
 All listed above tools have comprehensive tutorials and active online support. \
-Support for Nugen scripts has been suspended, however, the previously reported and resolved errors in the associated Github repositories can be useful during troubleshooting. I am flagging most common issues. \
+Support for Nugen scripts has been suspended, however, the previously reported and resolved errors in the associated Github repositories can be useful during troubleshooting. I am flagging most common issues. 
 
 Nudup.py - common issues: 
 1) Requires large temporary storage space whilst running, so make sure to provide a physical path to a server if running on a network. If storage isn't enough, it cannot complete but hangs and fills up all available space, preventing other users from working, and the temporary files must be removed manually. Displays random errors when temporary memory is not enough or not accurately allocated in the command line.
